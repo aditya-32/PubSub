@@ -1,4 +1,4 @@
-package org.example.exceptions;
+package org.publisherSubcriber.exceptions;
 
 public class PubSubException extends RuntimeException{
     public PubSubException(String msg) {

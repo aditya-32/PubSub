@@ -1,12 +1,12 @@
-package org.example.processor;
+package org.publisherSubcriber.processor;
 
 import com.google.inject.Inject;
 import lombok.RequiredArgsConstructor;
-import org.example.entity.Message;
-import org.example.entity.Topic;
-import org.example.entity.TopicSubscriber;
-import org.example.exceptions.PubSubException;
-import org.example.subscriber.ISubscriber;
+import org.publisherSubcriber.entity.Message;
+import org.publisherSubcriber.entity.Topic;
+import org.publisherSubcriber.entity.TopicSubscriber;
+import org.publisherSubcriber.exceptions.PubSubException;
+import org.publisherSubcriber.subscriber.ISubscriber;
 
 import java.util.HashMap;
 import java.util.Map;

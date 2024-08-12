@@ -1,9 +1,9 @@
-package org.example.processor;
+package org.publisherSubcriber.processor;
 
 import com.google.inject.assistedinject.Assisted;
-import org.example.entity.Topic;
-import org.example.entity.TopicSubscriber;
-import org.example.subscriber.SubscriberWorker;
+import org.publisherSubcriber.entity.Topic;
+import org.publisherSubcriber.entity.TopicSubscriber;
+import org.publisherSubcriber.subscriber.SubscriberWorker;
 
 import java.util.HashMap;
 import java.util.Map;

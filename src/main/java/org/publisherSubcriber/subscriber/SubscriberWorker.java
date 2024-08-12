@@ -1,9 +1,9 @@
-package org.example.subscriber;
+package org.publisherSubcriber.subscriber;
 
 import com.google.inject.assistedinject.Assisted;
 import lombok.SneakyThrows;
-import org.example.entity.Topic;
-import org.example.entity.TopicSubscriber;
+import org.publisherSubcriber.entity.Topic;
+import org.publisherSubcriber.entity.TopicSubscriber;
 
 public class SubscriberWorker implements Runnable{
     private final Topic topic;

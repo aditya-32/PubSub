@@ -1,7 +1,7 @@
-package org.example.subscriber;
+package org.publisherSubcriber.subscriber;
 
 import com.google.inject.assistedinject.Assisted;
-import org.example.entity.Message;
+import org.publisherSubcriber.entity.Message;
 
 public class SleepingSubscriber implements ISubscriber{
     private final String id;

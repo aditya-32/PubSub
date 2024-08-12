@@ -1,12 +1,9 @@
-package org.example.entity;
+package org.publisherSubcriber.entity;
 
 import lombok.Builder;
 import lombok.Getter;
-import org.example.subscriber.ISubscriber;
+import org.publisherSubcriber.subscriber.ISubscriber;
 
-import java.util.SimpleTimeZone;
-import java.util.UUID;
-import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicInteger;
 
 @Getter

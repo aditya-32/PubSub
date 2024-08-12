@@ -1,7 +1,7 @@
-package org.example;
+package org.publisherSubcriber;
 
 import com.google.inject.AbstractModule;
-import org.example.processor.Queue;
+import org.publisherSubcriber.processor.Queue;
 
 import static com.google.inject.Scopes.SINGLETON;
 

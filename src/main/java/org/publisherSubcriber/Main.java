@@ -1,9 +1,9 @@
-package org.example;
+package org.publisherSubcriber;
 
 import com.google.inject.Guice;
-import org.example.entity.Message;
-import org.example.processor.Queue;
-import org.example.subscriber.SleepingSubscriber;
+import org.publisherSubcriber.entity.Message;
+import org.publisherSubcriber.processor.Queue;
+import org.publisherSubcriber.subscriber.SleepingSubscriber;
 
 public class Main {
     public static void main(String[] args) {

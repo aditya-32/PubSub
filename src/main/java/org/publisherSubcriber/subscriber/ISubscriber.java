@@ -1,6 +1,6 @@
-package org.example.subscriber;
+package org.publisherSubcriber.subscriber;
 
-import org.example.entity.Message;
+import org.publisherSubcriber.entity.Message;
 
 public interface ISubscriber {
     String getId();
